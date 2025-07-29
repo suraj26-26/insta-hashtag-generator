@@ -1,0 +1,86 @@
+body, h1, form, label, textarea, button, p, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label {
+    color : #555;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+textarea {
+    resize: vertical;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: inherit;
+    min-height: 100px;
+    width: 100%;
+    max-width: 100%;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #0056b3;
+}
+.result {
+    margin-top: 20px;
+}
+h2 {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+pre{
+    background-color: #f7f7f7;
+    padding: 15px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    white-space: pre-wrap; /*Preserve whitespace and wrap text*/
+    text-align: left;
+}
